@@ -21,7 +21,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 
 public class HtmlUnitforBD {
 	private static int N = 5;// 搜索页数
-	private static String keyW = "武琼";// 搜索词
+	private static String keyW = "赵航";// 搜索词
 	private static HtmlPage firstBaiduPage;// 保存第一页搜索结果
 	private static String format = "";// Baidu对应每个搜索结果的第一页第二页第三页等等其中包含“&pn=1”,“&pn=2”,“&pn=3”等等，提取该链接并处理可以获取到一个模板，用于定位某页搜索结果
 	private static ArrayList<String> eachurl = new ArrayList<String>();// 用于保存链接
